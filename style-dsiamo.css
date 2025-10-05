@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+div h1 {
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    border-color: blue;
+}
+
+.mappa{
+    display: flex;
+    justify-content: center;
+}
