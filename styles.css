@@ -117,3 +117,25 @@ header .nav-links a{
 .scoperta-text p{
     font-size: 30px;
 }
+/*============================================*/
+.conteiner-gallery{
+    margin-top: 200px;
+    justify-content: center;
+    display: flex;
+    border: solid 1px white;
+    height: 400px;
+}
+
+/* .gallery{
+    border: solid 1px white;
+    height: 500px;
+} */
+.gallery-img{
+    border-radius: 25px;
+    margin-top: 100px;
+    padding: 20px;
+    width: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
