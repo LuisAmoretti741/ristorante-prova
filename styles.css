@@ -13,6 +13,7 @@ body{
 }
 /*============================================*/
 header{
+    border: white solid 1px;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -119,23 +120,65 @@ header .nav-links a{
 }
 /*============================================*/
 .conteiner-gallery{
-    margin-top: 200px;
     justify-content: center;
     display: flex;
-    border: solid 1px white;
-    height: 400px;
+    height: 750px;
 }
 
-/* .gallery{
-    border: solid 1px white;
-    height: 500px;
-} */
 .gallery-img{
+    margin: 20px;
     border-radius: 25px;
-    margin-top: 100px;
-    padding: 20px;
     width: auto;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     align-items: center;
+}
+.gallery-img img{
+    width: 250px;
+}
+/*============================================*/
+.conteiner-menu{
+    justify-content: center;
+    display: flex;
+    background-color: #BB1739;
+    height: 900px;
+}
+.menu-items{
+    flex-direction: column;
+    display: flex;
+    width: 80rem;
+    height: 900px;
+    border: solid 1px white;
+}
+.menu-title{
+    padding: 50px;
+    text-align: center;
+}
+.item-m{
+    height: 900px;
+    width: 100%;
+    border: solid 1px white;
+    display: flex;
+}
+.menu-text{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    width: 50rem;
+}
+/*============================================*/
+.conteiner-footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-items{
+    justify-items: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin: 20px;
+}
+.riga{
+    border: solid 1px white;
 }
