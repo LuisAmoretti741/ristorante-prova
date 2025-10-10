@@ -137,7 +137,7 @@ header .nav-links a{
     display: flex;
 }
 .img{
-    width: 500px;
+    width: 450px;
 }
 .img img{
     border-radius: 20px;
@@ -148,8 +148,8 @@ header .nav-links a{
     animation: fadeIn 2s ease-in;
 }
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 /*============================================*/
 .conteiner-menu{
@@ -209,23 +209,36 @@ header .nav-links a{
     border: solid 2px black;
 }
 /*============================================*/
-.conteiner-page-map{
-    height: 700px;
-    border: solid 1px solid;
-    display: flex;
-    align-self: center;
+.titolo-map {
+    color: white;
+    font-size: 2.2rem;
+    margin: 0;
 }
-.conteiner-map{
-    align-self: center;
-    display: flex;
-    align-items: center;
-    border: solid 1px white;
-    height: 500px;
+
+.contenuto-map {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
-.map{
-    padding: 20px;
-    margin: 20px;
-    border: solid 1px white;
-    width: 900px;
-    height: 500px;
+
+.testo {
+    color: white;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.link {
+    color: #ffdd99;
+    text-decoration: none;
+}
+
+.mappa {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mappa iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
 }
